@@ -14,10 +14,10 @@ function TodoForm(props) {
     e.preventDefault();
 
     /* gives an id on the todo you put in */
-    //props.onSubmit({
-      //id: Math.floor(Math.random() * 1000),
-      //text: input
-    //});
+    props.onSubmit({
+      id: Math.floor(Math.random() * 1000), /* giving a unique ID to the todo */
+      text: input
+    });
 
     /* takes the input */
     setInput('')
