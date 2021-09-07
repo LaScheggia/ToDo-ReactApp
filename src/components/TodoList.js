@@ -40,7 +40,6 @@ function TodoList() {
     setTodos(prev => prev.map(item => (item.id === todoId ? newValue : item)));
   };
 
-
   /* COMPLETES A TODO */
   const completeTodo = id => {
     let updatedTodos = todos.map(todo => {

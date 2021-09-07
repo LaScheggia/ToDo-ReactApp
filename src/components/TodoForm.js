@@ -31,7 +31,7 @@ function TodoForm(props) {
   
   };
   
-
+/* making the form change on submit vs update */
   return (
     <form onSubmit={handleSubmit} className='todo-form'>
       {props.edit ? (
