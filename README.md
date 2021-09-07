@@ -1,5 +1,11 @@
 # Simple ToDo list 
 
+##What does the code do?
+- Add new todo
+- Edit existing todo
+- Mark as complete a todo
+- Delete a todo
+
 ## Css things 
 - Change colors for every input
 - Change color to btn between input/edit
