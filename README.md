@@ -1,5 +1,5 @@
 # Simple ToDo list 
-
+A very easy todo app created with react. 
 
 
 ## What does the code do?
