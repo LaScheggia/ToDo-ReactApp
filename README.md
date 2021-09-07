@@ -1,6 +1,6 @@
-### Simple ToDo list 
+# Simple ToDo list 
 
-# Css things 
+## Css things 
 - Change colors for every input
 - Change color to btn between input/edit
 
