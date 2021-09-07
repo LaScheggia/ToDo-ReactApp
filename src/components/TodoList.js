@@ -42,17 +42,15 @@ function TodoList() {
 
 
   /* COMPLETES A TODO */
-  const completeTodo = id =>{
-    let updatedTodos = todos.map(todo =>{
+  const completeTodo = id => {
+    let updatedTodos = todos.map(todo => {
       if (todo.id === id) {
-        todo.isComplete = !todo.isComplete
+        todo.isComplete = !todo.isComplete;
       }
-
-      return todo
-    })
-
-    setTodos(updatedTodos)
-  }
+      return todo;
+    });
+    setTodos(updatedTodos);
+  };
 
   return (
     <div>
