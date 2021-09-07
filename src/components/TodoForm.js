@@ -1,9 +1,16 @@
 /* use rfce (es7 snippet to automatically create template) */
-import React, {useState} from 'react'
+import React, {useState, useEffect, useRef} from 'react'
 
 function TodoForm(props) {
   /* I declare the useState */
   const [input, setInput] = useState('');
+
+  const inputRef = useRef(null)
+
+  useEffect(() =>{
+    /* allows to focus on whatev is put as the Ref */
+    inputRef.current.focus()
+  })
 
   const handleChange = e =>{
     setInput(e.target.value)
