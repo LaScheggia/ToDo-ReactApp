@@ -1,3 +1,12 @@
+### Simple ToDo list 
+
+# Css things 
+- Change colors for every input
+- Change color to btn between input/edit
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
